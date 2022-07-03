@@ -100,3 +100,7 @@ input:focus, textarea:focus, select:focus{
 .nm::placeholder{
     font-size: small;
 }
+.bgimg{
+    margin-top: 200px;
+    width: 700px;
+}
