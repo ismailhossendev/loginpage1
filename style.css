@@ -3,13 +3,14 @@
     padding: 0;
 }
 .main{
-    margin: 8% 20% 0% 20%;
+    align-items: center;
+    justify-content: center;
     background-color: rgb(255, 255, 255);
 }
 .box{
-    
+    margin: 130px auto;
     height: 650px;
-    width: 1300px;
+    width: 70%;
     box-shadow: 1px 1px 10px rgb(109, 93, 93);
     border-radius: 20px;
 }
