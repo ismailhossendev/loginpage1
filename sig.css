@@ -14,13 +14,13 @@
     border-radius: 20px;
 }
 .left{
-    display: block;
+    
     align-items: center;
     text-align: center;
     justify-content: center;
     padding-right: 50px;
     float: right;
-    width: 40%px;
+    width: 60%px;
     height: 600px;
 }
 .profile{
@@ -29,7 +29,7 @@
     margin-bottom: -15px;
 }
 
-.box input{
+.box .inp{
     width: 300px;
     font-size: 30px;
     margin: 10px;
@@ -38,8 +38,9 @@
 }
 
 input::placeholder{
-    
-    font-size: 18px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    font-size: 12px;
     padding-left: 10px;
     
 }
@@ -85,11 +86,17 @@ input:focus, textarea:focus, select:focus{
     
 }
 
-.bgimg{
-    margin-left: 5px;
-    margin-top: 220px;
-    height: 350px;
-}
 .sin{
     margin: 10px;
+}
+
+.nm {
+    margin-top: 5px;
+    width: 145px;
+    border-radius: 20px;
+    height: 30px;
+    border: solid 0.5px #707070;
+}
+.nm::placeholder{
+    font-size: small;
 }
