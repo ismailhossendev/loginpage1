@@ -77,3 +77,8 @@ li{
 .icons img{
     height: 30px;
 }
+
+input:focus, textarea:focus, select:focus{
+    outline: none;
+    
+}
