@@ -90,6 +90,7 @@ input:focus, textarea:focus, select:focus{
 }
 
 .bgimg{
+    margin-left: 5px;
     margin-top: 90px;
     height: 200px;
 }
