@@ -1,0 +1,79 @@
+.main{
+    
+    background-color: rgb(255, 255, 255);
+}
+.box{
+    margin-top: 70px;
+    margin-left: 150px;
+    margin-right:150px; 
+    height: 300px;
+    background-image: url(images/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: 610px;
+    box-shadow: 1px 1px 10px rgb(109, 93, 93);
+    border-radius: 20px;
+}
+.left{
+    display: block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-right: 50px;
+    float: right;
+    width: 200px;
+    height: 90px;
+}
+.box img{
+    margin-top: 10px;
+    height: 80px;
+    margin-bottom: -15px;
+}
+
+.box input{
+    margin: 5px;
+    border-radius: 20px;
+    border: solid 0.5px #707070;
+}
+
+input::placeholder{
+    font-size: 8px;
+    padding-left: 10px;
+}
+.forgot{
+    text-decoration: none;
+    font-size: 12px;
+}
+.signin{
+    
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    padding: 0px 8px 2px 8px;
+}
+
+.signup{
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    padding: 0px 8px 1px 8px;
+    border: solid 0.5px;
+}
+.box p{
+    font-size: 10px;
+    margin-top: 15px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+    
+
+}
+li{
+    list-style-type:none;
+}
+.icons img{
+    height: 30px;
+}
