@@ -7,8 +7,8 @@
     margin-left: 150px;
     margin-right:150px; 
     height: 300px;
-    background-image: url(images/bg2.jpg);
-    background-repeat: no-repeat;
+    
+    
     background-size: 610px;
     box-shadow: 1px 1px 10px rgb(109, 93, 93);
     border-radius: 20px;
@@ -23,7 +23,7 @@
     width: 200px;
     height: 90px;
 }
-.box img{
+.profile{
     margin-top: 10px;
     height: 80px;
     margin-bottom: -15px;
@@ -81,4 +81,9 @@ li{
 input:focus, textarea:focus, select:focus{
     outline: none;
     
+}
+
+.bgimg{
+    
+    height: 200px;
 }
