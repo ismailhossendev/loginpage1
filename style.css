@@ -3,19 +3,13 @@
     padding: 0;
 }
 .main{
-    
+    margin: 8% 20% 0% 20%;
     background-color: rgb(255, 255, 255);
 }
 .box{
-    align-items: center;
-    margin-top: 130px;
-    margin-left: 300px;
-    margin-right:300px; 
+    
     height: 650px;
     width: 1300px;
-    
-    
-    background-size: 610px;
     box-shadow: 1px 1px 10px rgb(109, 93, 93);
     border-radius: 20px;
 }
@@ -26,7 +20,7 @@
     justify-content: center;
     padding-right: 50px;
     float: right;
-    width: 600px;
+    width: 40%px;
     height: 600px;
 }
 .profile{
@@ -96,7 +90,7 @@ input:focus, textarea:focus, select:focus{
 
 .bgimg{
     margin-left: 5px;
-    margin-top: 300px;
+    margin-top: 220px;
     height: 350px;
 }
 .sin{
